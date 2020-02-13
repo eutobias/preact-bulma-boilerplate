@@ -1,11 +1,11 @@
 import { h, render } from 'preact'
-import AddButon from './components/AddButton'
+import Counter from './components/Navbar'
 
 const App = props => {
   return (
     <div>
       <h1>TESTE 123</h1>
-      <AddButon />
+      <Counter />
     </div>
   )
 }
